@@ -146,18 +146,12 @@ insight-flow-retail-analytics/
 ├── src/
 │   └── retail_analysis.py
 │
-├── images/
-│   ├── sales_dashboard.png
-│   ├── customer_dashboard.png
-│   ├── product_dashboard.png
-│   ├── store_dashboard.png
-│   └── discount_dashboard.png
-│
-├── tableau/
-│   └── BusinessPerformanceDashboard.twb
-│
-└── reports/
-    └── project_case_study.pdf
+└── images/
+    ├── sales_dashboard.png
+    ├── customer_dashboard.png
+    ├── product_dashboard.png
+    ├── store_dashboard.png
+    └── discount_dashboard.png
 ```
 
 
