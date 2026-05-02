@@ -1,5 +1,7 @@
 # Insight Flow – Retail Analytics & Decision Support System
 
+Repository: RetailAnalytics-BusinessInsights
+
 ## Project Overview
 This project transforms high-volume and inconsistent retail transaction data into reliable business insights through an end-to-end analytics workflow using SQL, Python, SQLite, and Tableau.
 
@@ -133,7 +135,7 @@ The Tableau dashboard consists of five interactive pages designed to support dif
 ## Project Structure
 
 ```text
-insight-flow-retail-analytics/
+RetailAnalytics-BusinessInsights/
 │
 ├── README.md
 ├── requirements.txt
@@ -157,7 +159,8 @@ insight-flow-retail-analytics/
 
 ## How to Run
 
-This repository contains the SQL scripts, Python analysis workflow, dashboard file, and project documentation.  
+This repository contains the SQL scripts, Python analysis workflow, dashboard screenshots, and project documentation.
+
 The full database is not included due to file size and data privacy considerations.
 
 To run the Python analysis locally, prepare a SQLite database with the required tables and update the database path in `src/retail_analysis.py`.
