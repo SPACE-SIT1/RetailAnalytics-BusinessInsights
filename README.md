@@ -83,11 +83,14 @@ The raw dataset contained several data quality issues that could affect analytic
 - High-discount and low-margin product identification
 
 ## Key Insights
-- Revenue showed high volatility, suggesting reliance on seasonal demand rather than stable growth.
+- Net revenue after cleaning reached 39.51M with 624,990 total orders and an AOV of 53.38.
+- Revenue showed high volatility, with a peak in December 2023, suggesting reliance on seasonal demand.
+- Weekend sales, especially Sunday, generated stronger revenue than most weekdays.
 - High-value “Champion” customers contributed strongly to revenue, creating potential dependency risk.
-- Small basket sizes dominated transactions, indicating cross-selling opportunities.
+- Small basket sizes dominated transactions, indicating cross-selling and bundle promotion opportunities.
 - Feminine and Masculine categories drove most revenue, while Children products contributed significantly less.
-- Discount strategies required optimization to balance revenue growth and margin protection.
+- Store New York and Store Los Angeles outperformed Store Chicago in total revenue and productivity.
+- Discount strategies required optimization, as no-discount sales contributed the largest revenue share while campaign and non-campaign discounts showed different profitability patterns.
 
 ## Business Recommendations
 - Prioritize retention strategies for high-value customers.
@@ -97,13 +100,35 @@ The raw dataset contained several data quality issues that could affect analytic
 - Use dashboards as decision-support tools for ongoing performance monitoring.
 
 ## Interactive Dashboard
-
 The final dashboard was published on Tableau Public to allow users to explore revenue, customer, product, store, and discount performance interactively.
 
 [View Interactive Tableau Dashboard](https://public.tableau.com/app/profile/phisitphon.jantharakittikun/viz/BusinessPerformanceDashboardRetailCaseStudy/HOME)
 
+## Dashboard Pages
+The Tableau dashboard consists of five interactive pages designed to support different business decisions:
+
+- **Sales Dashboard**: Tracks net revenue, total orders, AOV, gross profit, margin, revenue trend, weekday performance, price segment, and basket size.
+- **Customer Dashboard**: Analyzes total customers, new customers, repeat rate, CLV, geographic distribution, age groups, and RFM-based customer segmentation.
+- **Product Dashboard**: Evaluates product performance, units sold, average margin, loss-making products, profitable products, return rate, revenue contribution, and ABC product mix.
+- **Store Dashboard**: Compares store revenue, average revenue per store, best-performing store, employee productivity, peak demand by hour, and store performance matrix.
+- **Discount Dashboard**: Assesses discount share, best campaign, effective rate, campaign profit, revenue by discount status, discount trends, ROI, payback, and campaign performance matrix.
+
 ## Dashboard Preview
-![Dashboard Preview](images/dashboard_overview.png)
+
+### Sales Dashboard
+![Sales Dashboard](images/sales_dashboard.png)
+
+### Customer Dashboard
+![Customer Dashboard](images/customer_dashboard.png)
+
+### Product Dashboard
+![Product Dashboard](images/product_dashboard.png)
+
+### Store Dashboard
+![Store Dashboard](images/store_dashboard.png)
+
+### Discount Dashboard
+![Discount Dashboard](images/discount_dashboard.png)
 
 ## Project Structure
 
@@ -122,7 +147,11 @@ insight-flow-retail-analytics/
 │   └── retail_analysis.py
 │
 ├── images/
-│   └── dashboard_overview.png
+│   ├── sales_dashboard.png
+│   ├── customer_dashboard.png
+│   ├── product_dashboard.png
+│   ├── store_dashboard.png
+│   └── discount_dashboard.png
 │
 ├── tableau/
 │   └── BusinessPerformanceDashboard.twb
